@@ -7,7 +7,7 @@ int main()
      cout<<"Enter a number upto which you want to find armstrong numbers:";
      cin>>n;
      cout<<"Armstrong series upto "<<n<<" are\n";
-     for(int i;i<n;i++)
+     for(int i=0;i<n;i++)
      {
         num=i;
         count=0;
